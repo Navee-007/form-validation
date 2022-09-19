@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  /* customize */
+  background-color: #1c2042;
+  color: white;
+  border: 2px solid #1c2042;
+}
+
+
+/*  */
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+ 
+ 
+ 
+}
+
+.card{
+  background-color: rgba(226, 6, 6, 0.375);
+  min-width: 22rem;
+  min-height: 20rem;
+  margin: 5rem;
+  color: White;
+  border-radius: 10px;
+ text-align: center;
+ padding:0.5rem 2.5rem;
+
+}
+
+
+
+.from-control{
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.from-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+label,
+input{
+  font-size: 1.25rem;
+  font-weight: 700;
+
+}
+
+input{
+  padding: 0.5rem 0.8rem ;
+  font-size: 1.25rem;
+  margin: 10px 0px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+}
+
+label{
+ text-align: start;
+
+}
+
+.btn-white{
+  background-color: #fff;
+  color:#1c2042 ;
+  font-size: 20px;
+  font-weight: 700;
+  border-color: #fff;
+  margin: 10px 0px ;
+}
+
+.btn-white:hover{
+  background-color: #1c2042 ;
+  color: white;
+}
+
+.title{
+  color: #ffffff  ;
+}
+
+
+
+body{
+  background-image: url(https://wallpapercave.com/wp/wp3336013.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

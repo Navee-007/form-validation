@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <!-- fontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!--custom css  -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="title">Rigister Here</h1>
+        <from class="from-submit">
+          <div class="from-control">
+            <label for="name"
+              >Enter Your Name:
+              <input id="name" type="text" name="username" />
+            </label>
+          </div>
+          <div class="from-control">
+            <label for="email"
+              >Enter Your Email: <input id="email" type="email" name="email" />
+            </label>
+          </div>
+          <div class="from-control">
+            <label for="mobile-number"
+              >Enter Your Mobile Number:
+              <input id="mobile-number" type="number" name="mobile-number" />
+            </label>
+          </div>
+          <div class="from-control">
+            <label for="confirm-possword"
+              >Enter Possword:
+              <input
+                id="confirm-possword"
+                type="possword"
+                name="mobile-number"
+              />
+            </label>
+          </div>
+          <div class="from-control">
+            <label for="confirm-possword"
+              >Confirm Your possword
+              <input
+                id="confirm-possword"
+                type="possword"
+                name="mobile-number"
+              />
+            </label>
+          </div>
+          <button class="btn btn-white">
+            Submit
+          </button>
+        </from>
+      </div>
+    </div>
+
+    <!-- scrip js -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
